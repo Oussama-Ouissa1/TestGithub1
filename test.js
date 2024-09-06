@@ -21,9 +21,10 @@ console.log(a);
 
 
 function calcul(aficher) {
-    for ( let i=0; i>=10; i++){
-        let x = aficher * 9
-        console.log(i + " * 9 = " + x)
+
+    for ( let i=0; i<=10; i++){
+        let x = aficher * i
+        console.log(i + " * " + aficher+ " = "+ x)
     }
 }
-    calcul(9);
+    calcul(8);
