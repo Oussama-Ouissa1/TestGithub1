@@ -27,4 +27,7 @@ function calcul(aficher) {
         console.log(i + " * " + aficher+ " = "+ x)
     }
 }
-    calcul(8);
+    calcul(19);
+
+
+
