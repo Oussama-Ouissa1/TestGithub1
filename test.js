@@ -235,52 +235,31 @@
 // Défi 4 : Maximum de Trois Nombres
 // Créez une fonction maxDeTrois qui prend trois nombres en arguments et retourne le plus grand des trois. Utilisez des conditions if-else pour résoudre ce défi.
 
-function maxDeTrois(nub1, nub2, nub3){
-    if(nub1 > nub2 , nub1 > nub3){
-        console.log(nub1);
-    } else if (nub2 > nub1 , nub2 > nub3){
-        console.log(nub2);
-    } else {
-        console.log(nub3);
-    }
-}
-
-maxDeTrois(191, 1102, 354);
 
 
-var Tache = [];
-function liste(ajoutDesTache){
-    for (let i = 0; i < ajoutDesTache; i++){
-        console.log(ajoutDesTache);
-    }
-}
-
-liste(10);
+let tache = [10, 10, 25, 'KASADN', 'jai travail sur un projet', 23];
 
 
-(async () => {
-    const name = await askQuestion("Enter your name: ");
-    
-    console.log(`Hello, ${name}!`);
-    
-    rl.close();
-})();
-
-if(finDeTache == '1'){
-    console.log('les tache : ' + tache[0],' (terminer) ; ' + tache[1],'; ' + tache[2])
-    console.log('les tache : ' + tache[0],'; ' + tache[1],'; ' + tache[2] +' (terminer) ')
-} else {
-    
-}
+    tache.splice(3, 1,);
+    console.log(tache);
 
 
 
 
-if(supprimerDeTache == '1'){
-    console.log('les tache : '+ tache[1],'; ' + tache[2])
-} else {
-    console.log('les tache : ' + tache[0],'; ' + tache[1],'; ' + tache[2]);
-}
+
+
+
+
+
+    1- 
+2-   (terminer)
+3- 
+
+
+
+
+
+
 
 
 
