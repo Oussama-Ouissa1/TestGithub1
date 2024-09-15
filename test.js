@@ -266,5 +266,25 @@ liste(10);
     rl.close();
 })();
 
+if(finDeTache == '1'){
+    console.log('les tache : ' + tache[0],' (terminer) ; ' + tache[1],'; ' + tache[2])
+    console.log('les tache : ' + tache[0],'; ' + tache[1],'; ' + tache[2] +' (terminer) ')
+} else {
+    
+}
+
+
+
+
+if(supprimerDeTache == '1'){
+    console.log('les tache : '+ tache[1],'; ' + tache[2])
+} else {
+    console.log('les tache : ' + tache[0],'; ' + tache[1],'; ' + tache[2]);
+}
+
+
+
+
+
 
 
